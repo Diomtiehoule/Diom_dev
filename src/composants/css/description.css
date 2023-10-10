@@ -1,0 +1,33 @@
+.descrip{
+    margin-top: 10%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+}
+.descrip .photo img{
+    width: 25vw;
+}
+.descrip .descr{
+    margin-top: 7%;
+}
+.descrip h2{
+    color: white;
+}
+.descrip p{
+    font-size: 1.1rem;
+    color: white;
+}
+.atouts{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.atouts h2{
+    color: white;
+    border-bottom: 2px solid white;
+    width: 12%;
+}
+.atouts p{
+    font-size: 1.1rem;
+    color: white;
+}

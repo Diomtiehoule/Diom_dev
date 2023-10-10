@@ -1,0 +1,155 @@
+.home{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+::-webkit-scrollbar{
+  width: 3px;
+}
+::-webkit-scrollbar-track{
+  background-color: #8c8c8e;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #ffc107;
+}
+.home1{
+  width: 20%;
+  background-color: #191923;
+  height: 90vh;
+  box-shadow: 0px 0px 5px 0px black;
+}
+.home2{
+  width: 80%;
+  background-color: #191923;
+  box-shadow: 0px 0px 5px 0px black;
+  height: 587px;
+  overflow-y: auto;
+}
+
+/* debut home 1  */
+.profil{
+  background-color: #8c8c8e17;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  border-bottom: 2px solid black;
+}
+.profil .photo{
+  width: 120px;
+  height: 120px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.profil .photo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profil .info{
+  text-align: center;
+  color: #8c8c8e;
+}
+.profil .info p:first-child{
+  color: white;
+}
+
+
+.infoPlus{
+  padding: 3%;
+  height: 23vh;
+  overflow: auto;
+}
+.infoPlus .location{
+  display: flex;
+  justify-content: space-between;
+}
+.infoPlus .location p:first-child{
+  font-size: 1rem;
+  color: white;
+}
+.infoPlus .location p:last-child{
+  font-size: 1rem;
+  color: #8c8c8e;
+}
+
+.border{
+  width: 70%;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.speaks{
+  padding: 3%;
+}
+.speaks .language{
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.speaks .language .first_barre{
+  width: 60%;
+  height: 1vh;
+  background-color: #343a40;
+  border-radius: 5px;
+  padding: .4%;
+  margin-top: 10%;
+}
+.speaks .language .second_barre{
+  width: 100%;
+  height: 1vh;
+  background-color: #ffc107;
+  border-radius: 5px;
+}
+.speaks .language .second_barre2{
+  width: 65%;
+  height: 1vh;
+  background-color: #ffc107;
+  border-radius: 5px;
+}
+
+.cv_part{
+  height: 5vh;
+  cursor: pointer;
+  margin-top: 25%;
+  background-color: #ffc107;
+  box-shadow: 0px 0px 5px 0px black;
+}
+.cv_part p{
+  padding-top: 4px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: black;
+}
+/* fin home 1 */
+
+/* debut home 2  */
+.home2{
+  padding: 1%;
+}
+.home2 .poster{
+  width: 98%;
+  height: 40vh;
+  padding: 1%;
+  background-color: aqua;
+  background-image: url('./media/main-image.jpg');
+  background-position: center center;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.poster h1{
+  width: 50%;
+  color: black;
+  font-weight: bolder;
+}
+.poster h1:first-child{
+  margin-top: 3%;
+}
+/* fin home 2  */

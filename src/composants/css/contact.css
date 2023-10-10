@@ -1,0 +1,25 @@
+.contact_body h1{
+    text-align: center;
+    color: white;
+    text-shadow: 5cap brown;
+}
+.ls_contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2%;
+}
+.follow , .join{
+    margin: 0 auto;
+    width: 30%;
+    padding: 1%;
+}
+.ls_follow , .contacts{
+    display: flex;
+    justify-content: space-between;
+}
+.ls_follow .reseau i{
+    color: white;
+    font-size: 2rem;
+}

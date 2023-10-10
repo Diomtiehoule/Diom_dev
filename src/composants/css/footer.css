@@ -1,0 +1,10 @@
+.footer_body{
+    background-color: #8c8c8e17;
+    box-shadow: 0 0 5px 0 black;
+    padding: 0% 1% 0 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_body p{
+    color: #8c8c8e;
+}

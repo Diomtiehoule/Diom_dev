@@ -1,0 +1,47 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+.projet_body{
+    margin-bottom: 10%;
+}
+.projet_body h1{
+    text-align: center;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.ls_projet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.new_projet{
+    width: 40%;
+    background-color: #8c8c8e17;
+    padding: 1%;
+    box-shadow: 0px 0px 10px 0px black;  
+}
+.tittle h2{
+    color: white;
+}
+.tittle h2 span{
+    font-size: .7rem;
+    color: white;
+}
+.new_projet .descrip_projet{
+    margin-bottom: 7%;
+    color: #dadada;
+}
+.new_projet .link{
+    display: flex;
+    justify-content: space-between;
+}
+.new_projet .link a{
+    color: #ffc107;
+}

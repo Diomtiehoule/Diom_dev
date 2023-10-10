@@ -1,0 +1,28 @@
+.competence_body{
+    margin: 0 auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.competence_body h1{
+    text-align: center;
+    margin-bottom: 5%;
+    color: white;
+}
+.competence_body .ls_competence{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.competence .photo{
+    width: 100%;
+}
+.competence .photo img{
+    width: 7vw;
+}
+.competence_body p{
+    color: white;
+    text-align: center;
+}
